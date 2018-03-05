@@ -1,0 +1,97 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+.fl 
+{
+float:left;
+}
+
+.fr 
+{
+float: right;
+}
+a 
+{
+   color:   #555555; 
+   font-weight: bold;
+}
+.duration 
+{
+    font-size:10px;
+    color:#777;
+}
+
+.btn.play 
+{
+    width:16px;
+    height:17px;
+    background-image: url(play.gif);
+    display: inline-block;
+}
+
+.btn.pause
+{
+    width:16px;
+    height:17px;
+    background-image: url(pause.gif?2);
+}
+
+.btn.paused
+{
+    width:16px;
+    height:17px;
+    background-image: url(play.gif?3);
+    display: inline-block;
+}
+
+
+div.player 
+{
+    width:200px;
+    height:8px;
+    margin-top:5px;
+    padding-left:20px;
+}
+
+div.player.inactive
+{
+    margin-top:5px;
+    margin-bottom:0px;
+    border-top: dashed 1px #555555;
+}
+
+.item .title 
+{
+    -vertical-align:middle;
+}
+
+.item .btn 
+{
+    display:inline;
+    float:left; 
+    margin-right:5px;
+    cursor:pointer;
+}
+.mp3
+{
+	background:url(mp3.jpg) no-repeat;
+	width:37px;
+	height:45px;
+}
+.doc
+{
+	background:url(doc.png) no-repeat;
+	width:37px;
+	height:45px;
+}

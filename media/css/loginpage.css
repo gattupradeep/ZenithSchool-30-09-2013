@@ -1,0 +1,84 @@
+﻿.header
+{
+	width:auto;
+	height: 127px;
+	background: #2a6da9;
+    /* gecko based browsers */
+    background: -webkit-gradient(linear, 0 0, 0 70%, from(#5C5B25), to(#8E9E63));
+    background: -moz-linear-gradient(#5C5B25, #8E9E63 70%);
+    background: linear-gradient(#5C5B25, #8E9E63 70%);
+    -pie-background: linear-gradient(#5C5B25, #8E9E63 70%);
+    /* gradient uses the full height of the element */
+    padding: 5px; /* distance from border edge to text */
+	/* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+    left top, left bottom , from(#8E9E63), to(#5C5B25));
+	background-repeat:no-repeat;
+	/* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+    StartColorStr='#5C5B25', EndColorStr='#8E9E63', GradientType=0);
+	background-repeat:no-repeat;
+	
+}
+
+.footer
+{
+	width:auto;
+	height:20px;
+	//background:#195A92;
+	clear:both;
+	/* gecko based browsers */
+ background: -webkit-gradient(linear, 0 0, 0 70%, from(#8E9E63), to(#575A3F));
+    background: -moz-linear-gradient(#8E9E63, #575A3F 70%);
+    background: linear-gradient(#8E9E63, #575A3F 70%);
+    -pie-background: linear-gradient(#8E9E63, #575A3F 70%);
+ /* gradient uses the full height of the element */
+ /* distance from border edge to text */
+	/* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom , from(#575A3F), to(#8E9E63));
+				background-repeat:no-repeat;
+	/* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#8E9E63', EndColorStr='#575A3F', GradientType=0);
+				background-repeat:no-repeat;
+
+}
+
+.login_div
+	{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	width:340px;
+	height:auto;
+	padding:5px;
+	position: relative;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #6F6F6F;
+    behavior: url(PIE.htc);
+	margin-top:40px;
+	}
+.login_table
+	{
+	font-family:arial;
+	font-size:13px;
+	color:white;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px 10px 10px 10px;
+	background:#8E9E63;
+	width:340px;
+	position: relative;
+    behavior: url(PIE.htc);
+	}
+.f2
+	{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	width:300px;
+	height:150px;
+	}
+	.thick_border
+ {
+ border:#575A3F solid 10px;
+ }

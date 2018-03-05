@@ -1,0 +1,26 @@
+#mbox{background-color:#fff; padding:0; border:1px outset #666; z-index:9999 !important;
+       border:#575A3F solid 5px;
+ -webkit-border-radius:8px 8px 8px 8px;
+ -moz-border-radius:8px 8px 8px 8px;
+ border-radius:8px 8px 8px 8px;
+ }
+      }
+#mbm{font-family:sans-serif;font-weight:bold;float:right;padding-bottom:5px;}
+#ol{background-image: url(../images/overlay.png); width:100%;height:100%;}
+.dialog {display:none}
+
+* html #ol{
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/overlay.png", sizingMethod="scale");
+}
+
+.closeModal{
+	background: url(../images/close.png) no-repeat;
+	width:42px;
+	height:42px;
+	margin-top:-10px;
+	margin-right:-20px;
+	cursor: pointer;
+	position: absolute;
+	right:0;
+}

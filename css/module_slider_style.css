@@ -1,0 +1,120 @@
+/*
+	Featured Content Slider
+	by: Chris Coyier
+*/
+
+
+
+					  				  
+/*
+	UTILITY STYLES
+*/				  				  
+					  				  
+
+div.contenido_imagen {
+	width:80px;
+	height:80px;
+	padding:0;
+	float:left;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 5px;	_margin-left: 10px;	
+}
+div.contenido_txt {
+	width:235px; 
+	height:160px;
+	font-size:11.5px;
+	margin:10px 0 0 0px;
+	padding:0 3px 0 0;
+	text-decoration:none; 
+	margin-left: 5px;
+	float:left;
+
+}
+.contenido_txt  p{
+	
+	font-size:11px;
+	
+	text-decoration:none; 
+	margin-left: 5px;
+	
+
+}
+div.contenido_txt h6{
+font-size:10px;
+	font-weight:normal;
+	color:#3a3a38;
+	padding:0px;
+	margin:0px;
+	
+}
+div.contenido_txt h6 a {
+	text-decoration:none;
+	background: #FF3300;
+	color:#fff;
+	padding:0px 7px 1px 7px;
+	margin:0 3px 0 3px;
+}
+div.contenido_txt h6 a:hover{
+	color: white;
+	text-decoration:none;
+	background:#333130;
+}
+
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width: 673px; position: relative;
+background: -webkit-gradient(linear, 0 0, 0 70%, from(#FFFFFF), to(#E5EBC7));
+    background: -moz-linear-gradient(#FFFFFF, #E5EBC7 70%);
+    background: linear-gradient(#FFFFFF, #E5EBC7 70%);
+    -pie-background: linear-gradient(#FFFFFF, #E5EBC7 70%);
+ /* gradient uses the full height of the element */
+
+	/* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom , from(#E5EBC7), to(#FFFFFF));
+				background-repeat:no-repeat;
+	/* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#FFFFFF', EndColorStr='#E5EBC7', GradientType=0);
+				background-repeat:no-repeat;
+	
+ }			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; }
+.stripViewer								{ position: relative; overflow: hidden; width: 673px; height: 205px; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width: 673px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+.nav-thumb 									{ border: 0px solid black; width:14px;margin-left:3px;margin-top:2px; }
+#movers-row									{ margin: -28px 0 0 12px; height:30px;margin-left:380px;}
+#movers-row div								{ width: 10%; float: left;}
+#movers-row div a.cross-link 				{ float: right;margin-top:8px; }
+.photo-meta-data							{ background: url(../images/transpBlack.png); padding: 10px; height: 30px; 
+											   position: relative; z-index: 9999; color: white; }
+.photo-meta-data span 						{ font-size: 13px; }
+.cross-link									{ display: block; width: 20px;  
+											  position: relative; padding-top:1px; z-index: 9999;}
+.active-thumb 								{ background: url(../images/circle2.png) top center no-repeat; margin-left:1px;}
+
+
+a:hover img.preview {
+   z-index:10;
+  
+}
+.gradient
+{
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(#FAFBF4), to(#DBDBC9));
+    /*background: -moz-linear-gradient(#FAFBF4, #89A54F 80%);#A4A501*/
+    background: -moz-linear-gradient(#EEE34E, #9B990B, #7F7B00 110%);
+    background: linear-gradient(#FAFBF4, #DBDBC9 100%);
+    -pie-background: linear-gradient(#FAFBF4, #DBDBC9 100%);
+	behavior: url(PIE.htc);
+}
+
+
+
+

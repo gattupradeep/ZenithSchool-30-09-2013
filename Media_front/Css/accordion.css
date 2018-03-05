@@ -1,0 +1,11 @@
+.set{border-bottom:0px solid #000;display: block; float: none; clear: both;}
+.set1{background-color:#C77B3F;}
+.set2{background-color:#FFC732;}
+.set3{background-color:#007C90;}
+.set4{background-color:#AD6F08;}
+.set5{background-color:#387855;}
+.accordionWrapper{display:inline-block; background-color:#fff; overflow:hidden;}
+.accordionWrapper img{vertical-align:top; border:0; margin:0; padding:0}
+.accordionWrapper div{display:inline; float:left; margin:auto;}
+.accordionWrapper div.acc_title{cursor:pointer;}
+.accordionWrapper div.acc_content{display:none;}

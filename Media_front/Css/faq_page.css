@@ -1,0 +1,29 @@
+/*** Demo specific css ***/
+
+
+.accordion_test             { width: 100%; margin: 0 auto; }
+.accordion_test h3 a { background:#FFFFFF;}
+.accordion_test h3 a  span{font-size:13px;font-family: Trebuchet MS,Helvetica,sans-serif;
+  
+    font-weight:bold;}
+.accordion_test div   {margin-left:0px; background:#FFFFFF;}
+.accordion_test div  div  {margin-left:0px;width:95px;height:83px;float:left;}
+.accordion_test div   p{font-size:12px;margin-left:5px;margin-right:0px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	
+	line-height:18px;
+	color: #191970;
+	margin-right: 10px;
+	margin-left: 10px;
+font-size: 13px;
+text-align:justify;}
+
+.accordion_test div   ul li{font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    font-size: 12px;color: #444444;line-height:2em;}
+.accordion_test div  h2
+{
+font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+			color:#FC7341;
+			font-size: 15px;
+			margin-bottom:20px;
+			margin-top:0px;
+}

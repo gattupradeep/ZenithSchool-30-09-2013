@@ -1,0 +1,73 @@
+/* 
+When using dw_Util.writeStyleSheet, rules apply to screen only.
+Include the following in ***ANOTHER*** style sheet,
+i.e., one that is included by usual means
+
+for js off, css on
+ul.tabnavs { 
+    display:none;
+    }
+    
+to hide tabs when printing 
+@media print {
+    ul.tabnavs { display: none; }
+} 
+*/
+
+div.tabset {
+
+    margin:0;
+    width:650px; /* need width for ie < 8 */
+   }
+div.tabpane { 
+    display:none;
+    clear:both;
+    padding:4px 10px;
+    border:solid 1px #D2D8EA;
+	background-color:#FFFAFA;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height:16px;
+	color: #000000;
+    }
+div.activePane { 
+    display:block;
+    }
+    
+ul.tabnavs {
+    display:block; /* display:none initially */
+    margin:0; padding:0;
+    list-style:none;
+	font-family: Arial, Trebuchet MS, Helvetica, sans-serif;
+	font-weight: 700;
+	    }
+ul.tabnavs li { 
+    display:inline;
+    }
+ul.tabnavs li a {
+    text-decoration:none;
+    background-color:#C8DB5E;
+    border:solid 1px #D2D8EA;
+    padding:2px 10px; 
+    margin:0 1.5px 0 0; /* gap between tabs */
+    float:left; width:auto;
+    position:relative; top:1px; /* brings down over pane border-top */
+	
+    }
+    
+ul.tabnavs li a:link, ul.tabnavs li a:visited {
+	color:#FFFFFF;
+    }
+ul.tabnavs li a:hover {
+    background-color:#B2B48C;
+    }
+ul.tabnavs li a.activeTab:link, 
+ul.tabnavs li a.activeTab:visited {
+    background-color:#F9B65E;
+	border-bottom: 1px solid #F2F5E4;
+    }
+.tdbg
+	{
+	background:url('../images/bullet-icon.png') repeat-x;
+	width:30px;
+	}

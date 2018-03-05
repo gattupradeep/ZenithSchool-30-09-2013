@@ -1,0 +1,91 @@
+.header{
+width:auto;
+height:144px;
+clear:both;
+
+}
+.logo
+	{
+	width:250px;
+	height:144px;
+	margin:auto;
+	clear:both;
+	float:left;
+	margin-left:10px;
+	
+	}
+.header_title
+{
+	width:450px;
+	height:144px;
+	
+	margin-left:10px;
+}
+.profile_id
+	{
+		float:left;border:red solid thin;width:220px;height:130px;margin-top:3px;
+		margin-left:40px;
+	}
+
+.container
+{	
+	margin-top:90px !important;
+	margin-bottom:15px !important;
+	width:auto;
+	margin:auto;
+	min-height:400px;
+}
+.left_menu
+{
+	width:200px;
+	min-height:400px;
+	height:auto;
+	box-shadow: -3px 3px 3px #C9C9C9;
+	margin-left:15px;
+	float:left;
+}
+.left_menu_title
+{
+width:200px;
+height:55px;
+box-shadow: -3px 3px 3px #C9C9C9;
+}
+.inner_container
+{
+	width:auto;
+	min-width:1010px;
+	margin-left:10px;
+	min-height:400px;
+	float:left;
+	height:auto;
+	box-shadow: -3px 3px 3px #C9C9C9;
+	
+}
+.inner_container_title
+{
+width:auto;
+height:55px;
+
+box-shadow: -3px 3px 3px #C9C9C9;
+
+}
+.icon
+{
+width:55px;
+height:55px;
+float:left;
+}
+.container_title
+{
+font-size:25px;
+color:#2DA0ED;
+margin-left:10px;
+}
+.footer
+{
+	width:auto;
+	min-height:30px;
+	border-top:#898282 solid 1px;
+	background:#5693B4;
+	border-bottom:#898282 solid 1px;
+}

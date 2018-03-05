@@ -1,0 +1,941 @@
+body 
+{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	color:#282727;
+}
+
+.headerlogin
+{
+    width:auto;
+    height: 20px;
+    background: -webkit-gradient(linear, 0 0, 0 80%, from(#587891), to(#A7B8C8));
+    background: -moz-linear-gradient(#587891, #A7B8C8 80%);
+    background: linear-gradient(#587891, #A7B8C8 80%);
+    -pie-background: linear-gradient(#587891, #A7B8C8 80%);
+    behavior: url(PIE.htc);
+}
+
+.s_label
+{
+    font-family:Trebuchet MS, arial;
+    font-size:small;
+    font-weight:700;
+    color:#282727;
+	height: 24px;
+	}
+.s_label_value
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+    color:#474737;
+	height: 24px;	
+}
+.s_label1
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+    color:#003559;
+}
+
+.s_nmenu
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+    color:#FFFFFF;
+    width: 70px;
+    height: 36px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 16px;
+    background-repeat: no-repeat;
+    cursor: hand;
+}
+
+.s_omenu
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+    color:#FFFFFF;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    cursor: hand;
+}
+
+.s_text
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+}
+
+.s_dash_title
+{
+    font-family:Trebuchet MS, arial;
+    font-size:18px;
+    color:#C04C00;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.s_dash_title1
+{
+    font-family:Trebuchet MS, arial;
+    font-size:18px;
+    color:#4C535D;
+    font-weight: bold;
+}
+
+
+.s_button
+{
+    font-family:Trebuchet MS, arial;
+    font-size:14px;
+    border:1px solid #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+	border-radius:5px 5px 5px 5px;
+	background:transparent url(../images/navigation.png) repeat-x scroll 0 0;
+	color:White;
+	cursor:pointer;
+	font-style: italic;
+}
+.s_button:hover
+{
+    font-family:Trebuchet MS, arial;
+    font-size:14px;
+    border:1px solid #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+	border-radius:5px 5px 5px 5px;
+	background:transparent url(../images/navigation.png) repeat-x scroll 50 20;
+	color:White;
+	cursor:pointer;
+}
+.s_grdbutton
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+    border:2px solid #FFFFFF;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+	border-radius:5px 5px 5px 5px;
+	background-color:#6F8C3F;
+	color:White;
+	cursor:pointer;
+ 
+}
+.s_grdbutton:hover
+{
+    font-family:Trebuchet MS, arial;
+    font-size:12px;
+    border:2px solid #6F8C3F;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+	border-radius:5px 5px 5px 5px;
+	background-color:#607A34;
+	color:White;
+	cursor:pointer;
+}
+
+.s_dropdown
+{
+    font-family:inherit;
+    font-size:14px;
+    color:#000000;
+	}
+
+.s_textbox
+{
+	border:#1874CD solid thin !important;
+    border: #1874CD solid 1px;
+    font-family:Trebuchet MS, arial;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px 3px 3px 3px;
+	}
+.s_textbox:focus
+{
+	border:#B0D259 solid thin !important;
+	border: #1874CD solid 1px;
+	-moz-box-shadow: 0 0 .5em #9E9E9E;
+	-webkit-box-shadow: 0 0 .5em #9E9E9E;
+    box-shadow: 0 0 .5em #9E9E9E;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+    /*font-size:11px;*/
+}
+		
+h1 {
+	font: 4.7em normal Georgia, 'Times New Roman', Times, serif;
+	color: #333;
+	margin: 0;
+	padding: 5px 0;
+}
+h1 small{
+	font: 0.2em normal  Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 1.5em;
+	display: block;
+	color: #fff;
+}
+.menu_container {width: 100%; height:auto;}
+.sidemenu1{background:#EAEAEA;border-bottom:#000 solid thin;} /* left menu inner bgcolor */
+.sidemenu1 td{width: 220px; line-height: 25px; padding-left: 10px;border-bottom:#575A3F solid 1px;border-left:#575A3F solid 1px;border-right:#575A3F solid 1px}
+.sidemenu1:hover{background:#5693B4;} /* left menu inner hover bgcolor */
+.sidemenu1 td:hover a {background:#5693B4;color:#fff;}
+.sidemenu A:link {font-family: Verdana;	font-size: 11px; COLOR: #fff; text-decoration:none}
+.sidemenu A:visited{font-family: Verdana; font-size: 11px; COLOR: #fff; text-decoration:none}
+.sidemenu A:active{font-family: Verdana; font-size: 11px; COLOR: #fff; text-decoration:none}
+.sidemenu:hover{font-family: Verdana; font-size: 11px; COLOR: #FFF; text-decoration:none}
+.sidemenu {margin-left:5px;font-family: Verdana; font-size: 11px; COLOR: #474737; text-decoration:none}
+
+.s_datagrid_header
+{
+	background-color:#666666;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:12px;
+	color:White;
+	height:30px;
+	
+}
+.s_datagrid_item
+{
+	background-color:#EAEAEA;
+	font-family:Verdana;
+	font-size:11px;
+	height:25px;
+}
+
+.s_datagrid_alt_item
+{
+	background-color:#F7F7F7;
+	font-family:Verdana;
+	font-size:11px;
+	height:25px;
+}
+
+.curve
+ {
+ border:#B2D15A solid 2px;
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px;
+ border-radius:8px 8px 8px 8px;
+ }
+
+.curve_info
+ {
+ border:#7F8F00 solid 1px;
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px;
+ border-radius:8px 8px 8px 8px; }
+
+.top_curve
+ {
+ border:#EAEAEA solid 5px;
+ -webkit-border-radius:8px 8px 8px 8px;
+ -moz-border-radius:8px 8px 8px 8px;
+ border-radius:8px 8px 8px 8px;
+ }
+.thick_curve
+ {
+ border:#666666 solid 5px;
+ -webkit-border-radius:8px 8px 8px 8px;
+ -moz-border-radius:8px 8px 8px 8px;
+ border-radius:8px 8px 8px 8px;
+ }
+
+ /*SMS Module page styles starts here*/
+ .sms_category
+{
+    font-family:Tahoma, arial;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:0.06em;
+    border:1px solid #D5CBA8;
+	background-color:#CC9900;
+	color:White;
+	cursor:pointer;
+ 
+}
+.sms_category:hover
+{
+    font-family:Tahoma, arial;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:0.06em;
+    border:1px solid #70686D;
+	background-color:#995707;
+	color:White;
+	cursor:pointer;
+}
+ .sms_template
+{
+    font-family:Trebuchet MS, arial;
+    font-size:14px;
+    border:2px solid #446688;
+	background-color:#446688;
+	color:White;
+	cursor:pointer;
+ 
+}
+.sms_template:hover
+{
+    font-family:Trebuchet MS, arial;
+    font-size:14px;
+    border:2px solid #4E7399;
+	background-color:#4E7399;
+	color:White;
+	cursor:pointer;
+}
+.sms_template_lable
+{
+	background-color:#CCCCCC;
+}
+.sms_label
+{
+    font-family:arial;
+    font-size:14px;
+    color:#515151;
+	height: 24px;
+}
+.sms_keyword_label
+{
+	font-family:arial;
+    font-size:12px;
+    color:#575A3F;
+	height: 24px;
+}
+.sms_keywords
+{
+	color:#BF2603;
+	font-size:11px;
+	font-weight:bold
+}
+.sms_header
+{
+	font-size:14px;
+    color:#515151;
+	height: 24px;
+	font-weight:bold;
+	line-height:25px;
+}
+/*SMS Module page styles ends here*/
+.s_gridlabel
+{
+    font-family:Trebuchet MS, arial;
+    font-size:11px;
+    color:#003559;
+    font-weight:bold;
+    text-align:left;
+}
+
+.s_gridtext
+{
+	font-family:Trebuchet MS, arial;
+    font-size:11px;
+    color:#003559;
+}
+
+.txtdate
+{
+	background-image: url('../images/calendar.png');
+}
+.reportsortyby
+	{
+	font-family: Arial;color:#F2803A;font-size:16px;font-weight:bold;
+	}
+.title_page
+{
+	width: 600px; height: 50px; font-family: Arial; font-size: 23px; color: #2DA0ED; padding-left: 10px;
+}
+.nodatatodisplay
+{
+	font-family:inherit;
+	color:Red;
+	font-size:16px;
+	font-style:italic;
+}
+
+/*newmenu*/
+
+.dropmenu ul, li{
+	padding: 0px;
+	margin: 0px;
+}
+/*fixed position classes starts here*/
+ul.fixed{
+	position: fixed;
+	margin: 0px;
+	padding: 1px 0px 0px 0px;
+	background:transparent url(../images/navigation.png) repeat-x scroll 0 0;
+	display:block;
+	height: 35px;
+	width:100%;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	position: fixed;
+	top: -5px;
+	left: 0;
+	box-shadow: 0 0 40px #222;
+	-webkit-box-shadow: 0 0 40px #222;
+	-moz-box-shadow: 0 0 40px #222;
+}
+.fixed li{
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.fixed li a{
+	height: 24px;
+	padding: 9px 20px 0px 5px;
+	display: block;
+	cursor: point;
+	border-right: solid 1px #4a779d;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor:pointer;
+}
+.fixed li span{
+	display: block;
+	float: right;
+	height: 10px;
+	width: 10px;
+	background:transparent url(../images/arrow_up.png) repeat-x scroll 0 0;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+.fixed li  a:hover span{
+	background:transparent url(../images/arrow_hover.png) repeat-x scroll 0 0;
+}
+.fixed li:hover ul, .fixed li:hover div{
+	display: block;
+}
+.fixed ul{
+	position: absolute;
+	display: none;
+	width: 140px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+	background: #FFFFFF url(../images/gradient.png) repeat-x scroll 0 0;
+}
+.fixed ul li{
+	border: 0;
+	float: none;
+}
+.fixed ul a {
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  white-space: nowrap;
+  display:block;
+  color: #0657AD;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.fixed ul a:hover {
+	color:#F67A00 !important;
+	text-decoration: none;
+	background-color: #F0F0F0;
+	background-image: none;
+}
+.fixed div ul{
+	position: relative;
+	display: block;
+}
+.fixed li div{
+	background: #FFFFFF url(../images/gradient.png) repeat-x scroll 0 0;
+	display: none;
+	position: absolute;
+	border:#5C5B25 solid thin;
+}
+.fixed li div ul{
+	border: none;
+	background: none;
+	position: relative !important;
+}
+.fixed li div a{
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+.fixed li div div{
+	display: block;
+	position: relative;
+	background: none;
+	border: none;
+}
+.fixed li div div a{
+	display: inline;
+	border: none;
+	color: #666;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.fixed li div div a:hover{
+	color: #000;
+	text-decoration: none;
+}
+/*fixed position classes ends here*/
+
+
+
+
+
+ul.dropmenu{
+	position: relative;
+	margin: 0px;
+	padding: 1px 0px 0px 0px;
+	background:transparent url(../images/navigation.png) repeat-x scroll 0 0;
+	display:block;
+	height: 35px;
+	width:100%;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+}
+.dropmenu li{
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.dropmenu li a{
+	height: 24px;
+	padding: 9px 20px 0px 5px;
+	display: block;
+	cursor: point;
+	border-right: solid 1px #4a779d;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor:pointer;
+}
+.dropmenu li span{
+	display: block;
+	float: right;
+	height: 10px;
+	width: 10px;
+	background:transparent url(../images/arrow_up.png) repeat-x scroll 0 0;
+	position: absolute;
+	top: 12px;
+	right: 5px;
+}
+.dropmenu li a:hover span{
+	background:transparent url(../images/arrow_hover.png) repeat-x scroll 0 0;
+}
+.dropmenu li:hover ul, .dropmenu li:hover div{
+	display: block;
+}
+.dropmenu ul{
+	position: absolute;
+	display: none;
+	width: 140px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+	background:#C6C6C6;
+	/* background: #FFFFFF url(../images/gradient.png) repeat-x scroll 0 0; */
+}
+.dropmenu ul li{
+	border: 0;
+	float: none;
+}
+.dropmenu ul a {
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  white-space: nowrap;
+  display:block;
+  color: #0657AD;
+  text-decoration: underline;
+  text-transform: none;
+}
+.dropmenu li a.selected 
+{
+	color: #0657AD !important;
+	text-decoration:none;
+	background:#C6C6C6;
+	/* background: #FFFFFF url(../images/gradient.png) repeat-x scroll 0 0; */
+}
+.dropmenu li a:hover{
+	color: #0657AD !important;
+	text-decoration:none;
+	background:#FFFFFF;
+	/* background: #FFFFFF url(../images/gradient.png) repeat-x scroll 0 0; */
+}
+.dropmenu li a.selected span{
+	background:transparent url(../images/arrow_hover.png) repeat-x scroll 0 0;
+}
+
+.dropmenu ul a:hover {
+	color:#F67A00 !important;
+	text-decoration: none;
+	background-color: #F0F0F0;
+	background-image: none;
+}
+.dropmenu div ul{
+	position: relative;
+	display: block;
+}
+.dropmenu li div{
+	background: #FFFFFF url(../images/gradient.png) repeat-x scroll 0 0;
+	display: none;
+	position: absolute;
+	border:#5C5B25 solid thin;
+}
+.dropmenu li div ul{
+	border: none;
+	background: none;
+	position: relative !important;
+}
+.dropmenu li div a{
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+.dropmenu li div div{
+	display: block;
+	position: relative;
+	background: none;
+	border: none;
+}
+.dropmenu li div div a{
+	display: inline;
+	border: none;
+	color: #666;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.dropmenu li div div a:hover{
+	color: #000;
+	text-decoration: none;
+}
+ul.left{
+	float: left;
+	width: 145px;
+}
+ul.right{
+	float: right;
+	width: 145px;
+}
+.products{
+	width: 230px;
+	padding:0px;
+	margin:0px;
+}
+.products ul{
+	width: 100%;
+	
+}
+.products ul li{
+	border-bottom: 1px solid #ccc;
+	height: 25px;
+	padding: 3px 0px;
+	background: #D1CFCF ;
+}
+.products ul li:hover{
+	border-bottom: 1px solid #ccc;
+	height: 25px;
+	padding: 3px 0px;
+	background: #FFFAFA ;
+	cursor:pointer;
+}
+.products img{
+	float: left;
+	width:25px;
+	height:25px;
+	padding-right: 10px;
+	padding-left: 5px;
+}
+.products  ul li a{
+	display: inline;
+	text-decoration:none;
+	border: none;
+	font-size:12px;
+	color: #494714;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.products  ul li  a:hover{
+	color: #633200 !important;
+	background: none !important;
+}
+/*Rajesh for progressbar*/
+ body { margin:0; padding:0;}
+       #container { margin:10px auto; }
+
+       #progressBackgroundFilter {
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+    background-color:#000;
+    filter:alpha(opacity=50);
+    opacity:0.5;
+    z-index:1000;
+}
+#processMessage {
+    position:fixed;
+    top:30%;
+    left:50%;
+    padding:10px;
+    z-index:1001;
+    background-color: Transparent;
+}
+/* application Header section start*/
+.panel
+{
+	height:75px;
+	width:180px;
+	border:#1874CD solid thin !important;
+    border: #1874CD solid 1px;
+    font-family:Trebuchet MS, arial;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px 3px 3px 3px;
+    color:inherit;
+    font-size:12px;
+}
+.app_logo
+{
+	height: 120px; 
+}
+.app_profile_photo
+{
+	width:300px;
+	height:100px;
+	margin-right:15px;
+	border:red solid thin;
+}
+/* application Header section end*/
+/* common classes for application */
+.app_middlegap
+{
+	width:1%;
+}
+.app_container
+{
+	width:730px;
+	-moz-box-shadow: 0 0 .5em #444444;
+	-webkit-box-shadow: 0 0 .5em #444444;
+    box-shadow: 0 0 .5em #444444;
+    border: #ADABAB solid thin;
+}
+.app_container_auto
+{
+	width:98%;
+	-moz-box-shadow: 0 0 .5em #444444;
+	-webkit-box-shadow: 0 0 .5em #444444;
+    box-shadow: 0 0 .5em #444444;
+    border: #ADABAB solid thin;
+}
+.app_container tr td
+{
+	vertical-align:middle;
+}
+.app_container_title
+{
+	height: 50px;
+	font-family : Candara;
+	font-size: 25px;
+	letter-spacing:1px;
+	color: #FFF;	
+	font-weight:bold;
+	padding-left: 10px;
+	background:#666666;
+	vertical-align:middle;
+}
+.app_left_container_title
+{
+	height: 50px;
+	font-family : Candara;
+	font-size: 21px;
+	letter-spacing:1px;
+	color: #FFF;	
+	font-weight:bold;
+	padding-left: 10px;
+	background:#666666;
+	text-align:left;
+}
+.app_cont_title_img_td
+{
+	width:50px;
+}
+.app_cont_title_img
+{
+	/*border:#282727 solid thin;*/
+	margin:5px;
+	width:40px;
+	height:40px;
+}
+.app_leftmenu_width
+{
+	width:230px;
+}
+.view_detail_title_bg1
+{
+	background:#5693B4;
+	height:45px;
+	color:#fff;	
+}
+
+.view_detail_title_bg
+{
+	background:#5693B4;
+	height:45px;
+	color:#fff;	
+	
+}
+.title_label
+{
+	color:#fff;
+	font-family:"Trebuchet MS";
+    font-size:14px;
+    font-weight:bolder;
+    letter-spacing:1px;	
+    margin-left:5px;
+}
+.title_label_value
+{
+	color:#fff;
+	font-family:Tahoma, arial;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:bolder;	
+}
+.header_lable
+{
+	color:#fff;
+	font-family:Tahoma, arial;
+    font-size:12px;
+    font-weight:bolder;
+}
+.view_detail_subtitle_bg
+{
+	background:#C6C6C6;
+	height:30px;
+}
+.subtitle_label
+{
+	color:#282827;
+	font-family:Trebuchet MS, arial;
+    font-size:14px;
+    font-weight:bolder;
+    letter-spacing:0.02em;
+    margin-left:5px;	
+}
+.break
+{
+	height:15px;
+}
+.smalllabel
+{
+	color:#575A3F;
+	font-family:Trebuchet MS, arial;
+    font-size:10px;
+    letter-spacing:0.02em;
+}
+/* school profile module */
+.uniform_gen
+{
+	 width:58px;
+	 font-size: 20px; 
+	 background-color: #DEE7D1;
+	 height: 100px;
+	 color:#282727;
+	 font-family:Trebuchet MS, arial;
+}
+.uniform_img
+{
+	width:150px;
+	height:250px;
+}
+.period_time_bg
+{
+	background:#fff;
+	border-color:#fff;
+}
+
+/* timetable module classes starts*/
+.timetable_daysheader
+{
+	background-color:#4B6D89;
+	color:#fff;
+	font-family:Tahoma, arial;
+    font-size:12px;
+    border-left:1px solid #000;
+    font-weight:bold;
+}
+.timetable_daysheader1
+{
+	background-color:#4B6D89;
+	color:#fff;
+}
+
+.timetable_startendtime
+{
+	color:#575A3F;
+	font-family:Tahoma, arial;
+    font-size:12px;
+    font-weight:bold;
+}
+.timtetable_period
+{
+	color:#DB4C25;
+	font-family:Tahoma, arial;
+    font-size:11px;
+    font-weight:bold;
+}
+.timetable_teacher
+{
+	background:Green;
+	border-color:Green;
+}
+.timetable_tableborder
+{
+	background-color:Gray;
+}
+.timetable_leftborder
+{
+    border-left:1px solid #000;
+     border-right:1px solid #000;
+}
+/* timetable module classes ends*/
+
+/* Style for Rajesh */
+
+        
+        .module1
+        {
+            background-color: #dff3ff;
+            border: 1px solid #c6e1f2;
+        }
+        .loading
+        {
+            background-color: #E0D2F2;
+            height:60%;
+            width:100%;
+            padding-top:100px;
+        }
+        
+        
